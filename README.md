@@ -19,7 +19,7 @@
 
 1. Clone este repositório:
    ```
-   git clone https://github.com/inpacta/Proccio-Backup.git
+   git clone https://github.com/inpacta/Proccio.git
    ```
 
 2. Configure as credenciais do Wi-Fi no arquivo `./src/main.cpp`:
