@@ -41,13 +41,13 @@ const char* mqttPassword = "senha"; // Opcional
 
 // Tópicos MQTT
 
-const char* topicStorageInfoSPIFFS = "IOT/RFID/INPACTA/StorageInfo/SPIFFS";
-const char* topicStorageInfoFLASH = "IOT/RFID/INPACTA/StorageInfo/FLASH";
-const char* topicStorageContent = "IOT/RFID/INPACTA/StorageInfo/Content";
-const char* topicLastAcess = "IOT/RFID/INPACTA/LASTACESS";
-const char* topicLock = "IOT/RFID/INPACTA/LOCK";
-const char* topicUnlock = "IOT/RFID/INPACTA/UNLOCK";
-const char* topicLog = "IOT/RFID/INPACTA/IP";
+const char* topicStorageInfoSPIFFS = "SEU/TOPICO";
+const char* topicStorageInfoFLASH = "SEU/TOPICO";
+const char* topicStorageContent = "SEU/TOPICO";
+const char* topicLastAcess = "SEU/TOPICO";
+const char* topicLock = "SEU/TOPICO";
+const char* topicUnlock = "SEU/TOPICO";
+const char* topicLog = "SEU/TOPICO";
 
 
 String info_data; //Informação sobre o usuario.Ex nome, cpf, etc.
