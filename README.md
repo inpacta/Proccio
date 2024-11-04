@@ -36,7 +36,18 @@
    const char* mqttPassword = "senha"; // Opcional
    ```
 
-3. Compile e faça o upload para o ESP8266 usando o Platformio.
+4. Configure os tópicos para as informações `./src/main.cpp` :
+   ```cpp
+   const char* topicStorageInfoSPIFFS = "SEU/TOPICO";
+    const char* topicStorageInfoFLASH = "SEU/TOPICO";
+    const char* topicStorageContent = "SEU/TOPICO";
+    const char* topicLastAcess = "SEU/TOPICO";
+    const char* topicLock = "SEU/TOPICO";
+    const char* topicUnlock = "SEU/TOPICO";
+    const char* topicLog = "SEU/TOPICO";
+   ```
+
+5. Compile e faça o upload para o ESP8266 usando o Platformio.
     ```cpp
     /* O projeto acima, está baseado na utilização do Platformio, extensão do Visual Studio Code.
     Aqui está um tutorial para que você consiga subir os arquivos para o repositório SPIFFS do ESP. */
